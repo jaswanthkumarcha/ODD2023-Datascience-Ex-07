@@ -233,7 +233,14 @@ imp_coef.plot(kind = "barh")
 plt.title("Feature importance using Lasso Model")
 plt.show()
 ```
+
 <img src="https://github.com/Janarthanan2/ODD2023-Datascience-Ex-07/assets/119393515/728772fb-2d29-4eb2-bcff-a383dbd125f4" height=250 width=300>
+
+
+
+# Inference:
+ the main process for feature selection is to eliminate the unwanted data ,through data cleaning and outlier detection we can remove duplicates and outliersthen we include data that has to be cleaned.It includes steps for data preprocessing, cleaning, outlier removal, and various feature selection methods such as filter methods (correlation), backward elimination, recursive feature elimination (RFE), and embedded methods (Lasso).
+
 
 # RESULT:
 Thus, the various feature selection techniques have been performed on a given dataset successfully.
